@@ -22,6 +22,7 @@ After installation is complete, add the plugin to your `config.json` file within
     "./node_modules/wintersmith-scss/"
   ]
 }
+```
 
 ## Tests
 
