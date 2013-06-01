@@ -1,0 +1,21 @@
+{
+  "name": "wintersmith-scss",
+  "version": "0.0.0",
+  "description": "SCSS plugin for use with Wintersmith.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nickpellant/wintersmith-scss"
+  },
+  "keywords": [
+    "wintersmith",
+    "scss",
+    "sass",
+    "plugin"
+  ],
+  "author": "Nick Pellant",
+  "license": "BSD"
+}
