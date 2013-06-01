@@ -4,7 +4,7 @@
   "description": "SCSS plugin for use with Wintersmith.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers coffee:coffee-script"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,14 @@
     "plugin"
   ],
   "author": "Nick Pellant",
-  "license": "BSD"
+  "license": "MIT",
+
+  "dependencies": {
+    "node-sass": "0.5.x"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.x",
+    "wintersmith": "2.x",
+    "mocha": "1.x"
+  }
 }
